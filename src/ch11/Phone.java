@@ -1,0 +1,26 @@
+package ch11;
+
+public class Phone {
+
+		public String model;
+		public String color;
+				
+		public void bell() {
+			System.out.println("벨이 울립니다");
+		}
+		public void sendVoice(String message) {
+			System.out.println("자기: " + message);
+		}
+		public void receiveVoice(String message) {
+			System.out.println("자기: " + message);
+		}
+		public void hangUp() {
+			System.out.println("전화를 끊습니다");
+		}
+		public Phone(String model, String color) {
+				this.model = model;
+				this.color = color;
+			System.out.println("Phone()is called!!");
+		
+		}
+}
