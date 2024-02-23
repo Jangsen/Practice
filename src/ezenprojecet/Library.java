@@ -125,20 +125,20 @@ public class Library {
          System.out.println("조회하신 책의 등록번호가 존재하지않습니다.");
    }
 
-   public void selectAll() {
-      if (list.isEmpty()) {
+   private void selectAll() {
+      if (list.isEmpty()) {							// list.isEmpy() 메소드를 통해서 비어있는지 확인
          System.out.println("대여할 책이 없습니다");
          return;
       }
       while (true) {
-         System.out.println("보유 도서량: " + list.size());
+         System.out.println("보유 도서량: " + list.size());		// 리스트에 담긴 전체 수를 나타냄
          System.out.println("=============== 전체 도서 목록 ================");
-         for (int i = 0; i < list.size(); i++) {
-            System.out.println("도서번호 : " + list.get(i).getNum());
-            System.out.println("도서제목: " + list.get(i).getName());
-            System.out.println("도서저자: " + list.get(i).getAuthor());
-            System.out.println("출판사: " + list.get(i).getCompany());
-            System.out.println("출판일: " + list.get(i).getDay());
+         for (int i = 0; i < list.size(); i++) {				// for 반복문으로 전체 리스트를 순회
+            System.out.println("도서번호 : " + list.get(i).getNum());	//				도서번호를 리스트에 추가
+            System.out.println("도서제목: " + list.get(i).getName());	//				도서제목을 리스트에 추가
+            System.out.println("도서저자: " + list.get(i).getAuthor());//				도서저자를 리스트에 추가
+            System.out.println("출판사: " + list.get(i).getCompany());//				출판사를 리스트에 추가
+            System.out.println("출판일: " + list.get(i).getDay());//					출판일을 리스트에 추가
             System.out.println();
          }
          break;
