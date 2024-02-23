@@ -1,0 +1,12 @@
+1. vscode를 설치한다.
+2. jdk를 설치한다
+3. vscode => Extensions => Java Extension Pack 검색 -> Install
+
+Java Extension Pack을 설치하면 아래 Extenstion이 설치 된다
+
+Language Support for Java By Red Hat
+Debugger for Java
+Java Test Runner
+Maven for Java
+Java Dependency Viewer
+Visual Studio IntelliCode
