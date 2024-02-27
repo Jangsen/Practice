@@ -1,11 +1,11 @@
 package ezenprojecet03;
 
 public class Book {
-	int num;		//번호
-	String name; 	//책이름
-	String author;	//저자
-	String company;	//출판사
-	String day;		//출판일
+	private int num;		//번호
+	private String name; 	//책이름
+	private String author;	//저자
+	private String company;	//출판사
+	private String day;		//출판일
 	
 	public Book(int num,String name, String author, String company, String day) {
 		this.num = num;

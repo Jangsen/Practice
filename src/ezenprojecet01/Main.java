@@ -6,7 +6,7 @@ public class Main {
 	   public static void main(String[] args) {
 	        BookManager manager = new BookManager();
 	        Scanner sc = new Scanner(System.in);
-
+			
 	        while (true) {
 	            System.out.println("=====================================");
 	            System.out.println("도서관리시스템");

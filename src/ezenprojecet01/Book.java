@@ -2,10 +2,10 @@ package ezenprojecet01;
 
 public class Book {
 	    int id;
-	    String title;
-	    String author;
-	    String publisher;
-	    String publicationDate;
+	   private String title;
+	   private String author;
+	   private String publisher;
+	   private String publicationDate;
 		public Book(int id, String title, String author, String publisher, String publicationDate) {
 			this.id = id;
 			this.title = title;
